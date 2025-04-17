@@ -504,7 +504,6 @@ margin-right: 120px;
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 1rem;
         border-radius: 0.25rem;
         padding: 0.5rem 1.5rem;
         height: 40px;
@@ -514,13 +513,19 @@ margin-right: 120px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: center;
-         color: #fff;
-         border-color: transparent;
-        
+        color: #fff;
+        border-color: transparent;
+        min-width: 165px;
+        cursor: pointer
 }
 .send-button:hover
 {
     background-color: #404bbf;
+}
+.send-svg
+{
+    margin-left: 16px;
+    fill: var(--icon-color, #f4f4fd);
 }
 .send-text
 {
@@ -539,6 +544,11 @@ margin-right: 120px;
         width: 16.5rem;
         height: 2.5rem;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+         padding-left: 16px;
+         color: #ffffff;
 }
 .send-input::placeholder
 {
@@ -546,7 +556,7 @@ margin-right: 120px;
         font-size: 0.75rem;
         line-height: 2;
         letter-spacing: 0.04em;
-        color: #fff;
+        color: #ffffff;
        padding-left: 16px;
 }
 /* .logo-foot {
