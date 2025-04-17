@@ -496,6 +496,7 @@ margin-right: 120px;
 
 .div-send-fom {
     display: flex;
+    gap: 24px;
 }
 .send-button
 {
@@ -504,12 +505,10 @@ margin-right: 120px;
         justify-content: center;
         flex-direction: row;
         gap: 1rem;
-       
         border-radius: 0.25rem;
         padding: 0.5rem 1.5rem;
         height: 40px;
         background-color: #4d5ae5;
-        margin-left: 24px;
         font-weight: 500;
         font-size: 1rem;
         line-height: 1.5;
